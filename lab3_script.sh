@@ -10,4 +10,4 @@ grep "$regex" "$filename"
 echo "Number of phone numbers: 17"
 echo "Number of emails: 611"
 grep "[3][0][3]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]" "$filename"
-grep "[@][G][E][O][C][I][T]" "$filename" >> email_results.txt
+grep "[@][g][e][o][c][i][t]" "$filename" >> email_results.txt
